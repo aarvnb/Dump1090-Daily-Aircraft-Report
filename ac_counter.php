@@ -9,7 +9,7 @@
 // CREATE TABLE daily_report (id INT NOT NULL AUTO_INCREMENT, report_date VARCHAR(100), transponder VARCHAR(100), messages VARCHAR(100), flight VARCHAR(100), category VARCHAR(100), squawk VARCHAR(100), first_seen VARCHAR(100), first_latitude VARCHAR(100), first_longitude VARCHAR(100), first_altitude VARCHAR(100), last_seen VARCHAR(100), last_latitude VARCHAR(100), last_longitude VARCHAR(100), last_altitude VARCHAR(100), low_dist VARCHAR(100), high_dist VARCHAR(100), low_rssi VARCHAR(100), high_rssi VARCHAR(100), mlat VARCHAR(100), PRIMARY KEY (id))
 
 // set path to aircraft.json file
-$user_set_array['url_json'] = 'http://127.0.0.1/dump1090/data/';
+$user_set_array['url_json'] = 'http://127.0.0.1/dump1090-fa/data/';
 
 // set email and/or logfile and/or database option to true or false
 $user_set_array['email'] = false;    $user_set_array['log'] = true;
